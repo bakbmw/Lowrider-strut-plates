@@ -26,10 +26,88 @@
       "type": "SVG",
       "repoOwner": "bakbmw",
       "repoName": "Lowrider-strut-plates",
-      "SVGwidth": 10
+      "SVGwidth": 1389
+    },
+    {
+      "atomType": "Tag",
+      "name": "strut plates",
+      "x": 0.4308157099697886,
+      "y": 0.5072886297376094,
+      "uniqueID": "id-386",
+      "ioValues": [],
+      "tags": [
+        "strut plates"
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5308157099697886,
+      "y": 0.5072886297376094,
+      "uniqueID": "id-389",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 700,
+          "currentEquation": "0700"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 100,
+          "currentEquation": "100"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.6487915407854985,
+      "y": 0.489795918367347,
+      "uniqueID": "id-395",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "output",
+      "ap2Name": "geometry",
+      "ap1ID": "id-384",
+      "ap2ID": "id-386"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-386",
+      "ap2ID": "id-389"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-389",
+      "ap2ID": "id-395"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": {},
