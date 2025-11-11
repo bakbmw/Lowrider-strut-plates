@@ -14,6 +14,19 @@
       "y": 0.5,
       "uniqueID": "id-374",
       "ioValues": []
+    },
+    {
+      "atomType": "Import",
+      "name": "Import",
+      "x": 0.33081570996978854,
+      "y": 0.5072886297376094,
+      "uniqueID": "id-384",
+      "ioValues": [],
+      "fileName": "strut_plate-2_copy1.svg",
+      "type": "SVG",
+      "repoOwner": "bakbmw",
+      "repoName": "Lowrider-strut-plates",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
