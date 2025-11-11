@@ -1,15 +1,24 @@
 {
-    "atomType": "Molecule",
-    "name": "Lowrider-strut-plates",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-373",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Lowrider-strut-plates",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-373",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-374",
+      "ioValues": []
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
