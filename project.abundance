@@ -48,11 +48,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 700
+          "ioValue": 700,
+          "currentEquation": "700"
         },
         {
           "name": "yDist",
-          "ioValue": 100
+          "ioValue": 100,
+          "currentEquation": "100"
         },
         {
           "name": "zDist",
@@ -95,29 +97,38 @@
       ]
     },
     {
-      "atomType": "Export",
-      "name": "Export",
-      "x": 0.8859516616314199,
-      "y": 0.42857142857142855,
-      "uniqueID": "id-405",
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.8578124999999999,
+      "y": 0.3697674418604651,
+      "uniqueID": "id-445",
       "ioValues": [
         {
-          "name": "File Type",
-          "ioValue": "STEP"
+          "name": "Tool Size",
+          "ioValue": 3.175,
+          "currentEquation": "3.175"
         },
         {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
+          "name": "Passes",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Part Name",
           "ioValue": "Lowrider-strut-plates"
         }
       ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Lowrider-strut-plates"
+      "partName": "Lowrider-strut-plates",
+      "sortDirection": "Top"
     }
   ],
   "allConnectors": [
@@ -149,11 +160,11 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "id-401",
-      "ap2ID": "id-405"
+      "ap2ID": "id-445"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
