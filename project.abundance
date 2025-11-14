@@ -48,13 +48,11 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 700,
-          "currentEquation": "700"
+          "ioValue": 700
         },
         {
           "name": "yDist",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         },
         {
           "name": "zDist",
@@ -65,8 +63,8 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.6487915407854985,
-      "y": 0.489795918367347,
+      "x": 0.6463541666666667,
+      "y": 0.4953488372093024,
       "uniqueID": "id-395",
       "ioValues": [
         {
@@ -92,7 +90,8 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 3
+          "ioValue": 3,
+          "currentEquation": "3"
         }
       ]
     },
@@ -105,13 +104,11 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 3.175,
-          "currentEquation": "3.175"
+          "ioValue": 3.175
         },
         {
           "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "Speed",
@@ -119,8 +116,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "Part Name",
