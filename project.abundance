@@ -83,16 +83,16 @@
         },
         {
           "name": "zDist",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.5584319526627219,
-      "y": 0.4969135802469136,
+      "x": 0.7100591715976331,
+      "y": 0.48148148148148145,
       "uniqueID": "id-524",
       "ioValues": [
         {
@@ -111,7 +111,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 4.5,
+          "currentEquation": "4.5"
         },
         {
           "name": "Part Name",
