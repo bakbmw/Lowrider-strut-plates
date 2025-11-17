@@ -83,17 +83,17 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 2,
+          "currentEquation": "2"
         }
       ]
     },
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.5554733727810651,
-      "y": 0.4938271604938272,
-      "uniqueID": "id-516",
+      "x": 0.5584319526627219,
+      "y": 0.4969135802469136,
+      "uniqueID": "id-524",
       "ioValues": [
         {
           "name": "Tool Size",
@@ -102,7 +102,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Speed",
@@ -110,8 +111,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 0
         },
         {
           "name": "Part Name",
@@ -145,7 +145,7 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "id-510",
-      "ap2ID": "id-516"
+      "ap2ID": "id-524"
     }
   ],
   "unitsKey": "MM",
