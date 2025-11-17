@@ -97,8 +97,8 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 3.175,
-          "currentEquation": "3.175"
+          "ioValue": 0.1,
+          "currentEquation": ".1"
         },
         {
           "name": "Passes",
@@ -111,8 +111,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 4.5,
-          "currentEquation": "4.5"
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Part Name",
