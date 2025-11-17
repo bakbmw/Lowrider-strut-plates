@@ -18,8 +18,8 @@
     {
       "atomType": "Import",
       "name": "Import",
-      "x": 0.27736686390532544,
-      "y": 0.49074074074074076,
+      "x": 0.2832840236686391,
+      "y": 0.5277777777777778,
       "uniqueID": "id-384",
       "ioValues": [],
       "fileName": "strut_plate-2_copy1.svg",
@@ -31,9 +31,9 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.2847633136094675,
-      "y": 0.4969135802469136,
-      "uniqueID": "id-484",
+      "x": 0.3683431952662722,
+      "y": 0.5154320987654321,
+      "uniqueID": "id-488",
       "ioValues": [
         {
           "name": "height",
@@ -41,9 +41,113 @@
           "currentEquation": "4"
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.4763313609467455,
+      "y": 0.4722222222222222,
+      "uniqueID": "id-504",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5532544378698225,
+      "y": 0.49074074074074076,
+      "uniqueID": "id-510",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 100,
+          "currentEquation": "100"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 700,
+          "currentEquation": "700"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.5554733727810651,
+      "y": 0.4938271604938272,
+      "uniqueID": "id-516",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 3.175,
+          "currentEquation": "3.175"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 2,
+          "currentEquation": "2"
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Lowrider-strut-plates"
+        }
+      ],
+      "partName": "Lowrider-strut-plates",
+      "sortDirection": "Top"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "output",
+      "ap2Name": "geometry",
+      "ap1ID": "id-384",
+      "ap2ID": "id-488"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-488",
+      "ap2ID": "id-504"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-504",
+      "ap2ID": "id-510"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-510",
+      "ap2ID": "id-516"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": [],
